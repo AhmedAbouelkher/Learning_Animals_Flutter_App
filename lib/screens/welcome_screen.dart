@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-import 'constants.dart';
-import 'size_config.dart';
+import 'package:learning_animals/appTheme.dart';
 import 'animal_deatails_screen.dart';
-import 'reusableCards.dart';
+import 'package:learning_animals/widgets/reusableCards.dart';
 
 class WelcomeScreenElements extends StatefulWidget {
   @override

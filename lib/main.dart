@@ -1,22 +1,19 @@
 import 'package:flutter/material.dart';
-import 'welcome_screen.dart';
-import 'size_config.dart';
+import 'package:learning_animals/screens/welcome_screen.dart';
+import 'package:ui_size_config/ui_size_config.dart';
 
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return LayoutBuilder(builder: (context, constraints) {
-      return OrientationBuilder(builder: (context, orientation) {
-        SizeConfig().init(constraints, orientation);
-        return MaterialApp(
+    return UISizeConfig(
+        context: context,
+        child: MaterialApp(
           debugShowCheckedModeBanner: false,
           title: 'Flutter Demo',
           home: MyHomePage(),
-        );
-      });
-    });
+        ));
   }
 }
 
@@ -30,8 +27,9 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: PreferredSize(
-        preferredSize: Size.fromHeight(
-            SizeConfig.isPortrait ? 0.1 * SizeConfig.heightMultiplier : 0),
+        preferredSize: Size.fromHeight(SizeConfig().isDevicePortrait
+            ? 0.1 * SizeConfig.heightMultiplier
+            : 0),
         child: AppBar(
           backgroundColor: Colors.transparent,
           elevation: 0.0,

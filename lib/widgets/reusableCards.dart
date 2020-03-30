@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'constants.dart';
-import 'animal_deatails_screen.dart';
-import 'size_config.dart';
+import 'package:learning_animals/appTheme.dart';
+import 'package:learning_animals/screens/animal_deatails_screen.dart';
 
 class ReusablePopularAnimalCard extends StatelessWidget {
   ReusablePopularAnimalCard(

@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'constants.dart';
-import 'size_config.dart';
+import 'package:learning_animals/appTheme.dart';
 
 class AnimalDetailsScreen extends StatelessWidget {
   @override
