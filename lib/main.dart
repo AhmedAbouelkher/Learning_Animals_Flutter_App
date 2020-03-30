@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'welcome_screen.dart';
 import 'size_config.dart';
-import 'animal_deatails_screen.dart';
 
 void main() => runApp(MyApp());
 
@@ -12,6 +11,7 @@ class MyApp extends StatelessWidget {
       return OrientationBuilder(builder: (context, orientation) {
         SizeConfig().init(constraints, orientation);
         return MaterialApp(
+          debugShowCheckedModeBanner: false,
           title: 'Flutter Demo',
           home: MyHomePage(),
         );

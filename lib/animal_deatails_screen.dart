@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'constants.dart';
-import 'welcome_screen.dart';
 import 'size_config.dart';
 
 class AnimalDetailsScreen extends StatelessWidget {

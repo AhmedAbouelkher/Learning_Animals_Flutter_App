@@ -1,17 +1,19 @@
-# Learning Animals Flutter UI
+# Learning Animals-FLutter App
 
-A new Flutter application.
 
-## Getting Started
+Original app design from Dribbble: [here](https://dribbble.com/shots/7172559-Learning-Animals-Kids-App "here")
 
-This project is a starting point for a Flutter application.
+## Screens Shots
+<table style={border:"none"}>
 
-A few resources to get you started if this is your first Flutter project:
+<td>
+<img src="https://github.com/AhmedAbouelkher/Learning_Animals_Flutter_App/blob/master/screenshots/Screenshot%201.png" alt="Home Screen/Tap" width="300"/>
+</td>
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-- [Original Design From Dribbble](https://dribbble.com/shots/7172559-Learning-Animals-Kids-App)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<td>
+<img src="https://github.com/AhmedAbouelkher/Learning_Animals_Flutter_App/blob/master/screenshots/Screenshot%202.png" alt="Search Screen" width="300"/>
+</td>
+
+</table>
+
